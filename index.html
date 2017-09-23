@@ -2,7 +2,7 @@
 
 <head>
 
-    <title>PioTech | FTC 6719</title>
+    <title>PioTech Robotics | FTC 6719</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
@@ -16,16 +16,7 @@
     <!-- jquery Code -->
     <script>
         $(document).ready(function() {
-            $("#slideshow > div:gt(0)").hide();
-
-            setInterval(function() {
-                $('#slideshow > div:first')
-                    .fadeOut(1000)
-                    .next()
-                    .fadeIn(1000)
-                    .end()
-                    .appendTo('#slideshow');
-            }, 3000);
+            
         });
     </script>
 </head>
@@ -56,16 +47,13 @@
                         <a href="about.html" class="navlink"><strong>About</strong></a>
                     </li>
                     <li>
-                        <a href="team.html" class="navlink"><strong>Team</strong></a>
+                        <a href="events.html" class="navlink"><strong>Events</strong></a>
                     </li>
                     <li>
                         <a href="robots.html" class="navlink"><strong>Robots</strong></a>
                     </li>
                     <li>
-                        <a href="news.html" class="navlink"><strong>News</strong></a>
-                    </li>
-                    <li>
-                        <a href="contact.html" class="navlink"><strong>Contact Us</strong></a>
+                        <a href="sponsors.html" class="navlink"><strong>Sponsors</strong></a>
                     </li>
                 </ul>
                 <!-- Right Navbar -->
@@ -82,36 +70,78 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="img-responsive" src="img/brand.png">
-                        <br>
-                        <h1>FTC 6719 </h1>
+                        <h1>PioTech Robotics</h1>
+                        
+                        <h2>FTC 6719</h2>
+                        
                     </div>
                     <div class="col-md-6">
                         <div id="slideshow">
-                            <div>
-                                <img class="slideimg img-responsive" src="slideshow/finallogo.png">
-                            </div>
-                            <div>
-                                <img class="slideimg img-responsive" src="slideshow/shirt.png">
-                            </div>
-                            <div>
-                                This slide can be anything.
-                            </div>
+                            <iframe id="ytplayer" type="text/html" width="100%" height="100%" 
+                            src="https://www.youtube.com/embed/yx7i4cXxyx4" frameborder="0" allowfullscreen>
+                            </iframe>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container">
         <div class="container content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>News</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="footer">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="container">
+                    <div class="row">
+                        <h2>Contact Us</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <form>
+                                <div class="form-group">
+                                    <label for="fullName">Full Name</label>
+                                    <input type="text" class="form-control" id="fullName" aria-describedby="nameHelp" placeholder="Enter name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="emailAddress">Email Address</label>
+                                    <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea class="form-control" rows="5" id="message"></textarea>    
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <h2>Location</h2>
+                    <iframe width="400" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDAwcPqUI9xHT8iPW9n48qrEIlY2CeZZJQ
+                    &q=Pioneer+Academy+Wayne,NJ&zoom=15" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h2>Social Media</h2>
+                <!-- Begin embedding social media buttons and donate button -->
+                <iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2FPiotech6719&width=79&height=65&layout=button&size=large&show_faces=true&appId" width="100%" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                <a href="https://twitter.com/PioTechTeam" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @PioTechTeam</a><script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>                
+                <br>
+           </div>
         </div>
     </div>
 </body>
-
-<footer>
-    <div class="container content">
-
-    </div>
-</footer>
-
 </html>
