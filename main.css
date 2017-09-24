@@ -11,6 +11,10 @@
     margin-top: 70px;
 }
 
+.linksContainer {
+    margin-bottom: 25px;
+}
+
 .nav .active a {
     background: radial-gradient(#fe8d01, #ff5722) !important;
 }
@@ -60,6 +64,10 @@ h1:after {
     padding: 20px;
     background-color: #212121;
     color: #ffffff;
+}
+
+.contentContainer {
+    margin-top: 30px;
 }
 
 .maincontent {
