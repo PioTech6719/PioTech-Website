@@ -8,7 +8,9 @@
 }
 
 .jumbotron {
-    margin-top: 70px;
+    margin-top: 80px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .descParagraph {
@@ -16,7 +18,8 @@
 }
 
 .linksContainer {
-    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .nav .active a {
@@ -70,8 +73,10 @@ h1:after {
     color: #ffffff;
 }
 
-.contentContainer {
+.newsContainer {
     margin-top: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .maincontent {
