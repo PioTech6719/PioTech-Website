@@ -11,6 +11,10 @@
     margin-top: 70px;
 }
 
+.descParagraph {
+    font-size: 14pt !important;
+}
+
 .linksContainer {
     margin-bottom: 25px;
 }
@@ -51,7 +55,7 @@ h1:after {
     height: 100%
 }
 
-#slideshow {
+#videoPlayer {
     margin: 10px auto;
     position: relative;
     width: 100%;
