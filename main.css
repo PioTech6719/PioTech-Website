@@ -81,7 +81,11 @@ h1:after {
 }
 
 .maincontent {
-    margin-top:70px;
+    margin-top: 85px;
+}
+
+.maincontent.row {
+    padding-top: 10px;
 }
 
 .personCard {
